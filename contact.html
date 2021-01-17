@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel=stylesheet href="css/style.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  background-color: DodgerBlue;
+  border: none;
+}
+.addbox{
+	width:100%;
+	margin:5px;
+	padding:15px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow: 0 10px 15px black;
+	text-align:left;
+}
+.contactbox{
+		width:100%;
+		padding:10px;
+		border:1px solid #ccc;
+		border-radius:10px;
+	}
+
+input[type=text], select, textarea, input[type=email] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:40%;
+  margin-left:30%;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar1">
+  <a class="active" href ="#"><i class="fa fa-phone"></i> 0775371086</a>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6" style="background-color:white;padding:10px">
+      <img src="images/FB_IMG_15701948519105515.jpg" style="float:left" width="420" height="240">
+    </div>
+    <div class="col-sm-6" style="background-color:white;margin-top:40px;padding:10px">
+      <h1 style="text-align:center;font-size:48px">HNG Constractors (Pvt) Ltd.</h1>
+	  <h1 style="color:#D35400;font-size:34px;font-family:Cooper;text-align:center" >Drilling & Blasting Services</h1>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse2">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="services.html" class="nav-item nav-link">Services</a>
+                <a href="paspro.html" class="nav-item nav-link">Projects</a>
+				<a href="about.html" class="nav-item nav-link">About us</a>
+				<a href="contact.html" class="nav-item nav-link">Contact us</a>
+            </div>
+        </div>
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+<div class="container-fluid">
+<div class="row">
+  <div class="column1" style="background-color:white">
+	<div class="addbox">
+	<p><b style="color:#D35400;font-size:19px;font-family:Consolas;"> Address:</b>	Wasana,Mahena,Dondra,Matara,Srilanka.</p><br/>
+	<p><b style="color:#D35400;font-size:19px;font-family:Consolas;">Mobile:</b>	0775371086,0412223313</p><br/>
+	<p><b style="color:#D35400;font-size:19px;font-family:Consolas;">E-Mail:</b>	janakaharen@gmail.com</p>
+</div>
+  </div>
+  <div class="column1" style="background-color:white;">
+    <img src="images/Hitachi-270-with-rock-drill.jpg" style="float:right" width="520" height="240">
+    
+  </div>
+</div>
+</div>
+
+<hr style="border:6px solid black"></hr>
+<div class="container-fluid">
+<div class="row" style="border:2px solid #bbb;margin:20px">
+	<div class="column1">
+		<div class="contactbox">
+	<h2>WANT MORE INFORMATION</h2>
+	<h2 style="color:#D35400">SEND US A MESSAGE</h2>
+	<form class="contact-form" action="contactform.php" method="post">
+		<input type="text" name="name" placeholder="full name">
+		<input type="email" name="mail" placeholder="your e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" />
+		<input type="text" name="subject" placeholder="subject">
+		<textarea name="message" cols="20" rows="5" placeholder="Message"></textarea>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</div>
+	</div>
+	<div class="column1">
+		<div class="mapouter"><div class="gmap_canvas">
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12918.15626475207!2d80.58526873917467!3d5.9314779788236045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae139a8e9587403%3A0x4397ee593951bfbd!2sDondra!5e1!3m2!1sen!2slk!4v1582560977936!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		 </div><style>.mapouter{text-align:left;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
+	</div>
+</div>
+ </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row" style="background: url('./images/sininfo.jpg') no-repeat">
+    <div class="col-sm-4" style="text-align:center;padding-top:5%;margin:0px">
+        <b style="color:white;font-size:18px;">Like Us On</b><br/>
+		    <a href="https://www.facebook.com/janakaharen"><button class="btn"><i class="fa fa-facebook"></i></button></a>
+    </div>
+    <div class="col-sm-4" style="line-height:40px;text-decoration:none;text-align:left;margin:0px">
+      <b style="color:white;border-bottom:3px solid #FF5733">Contact Info</b></br>
+      <p style="color:white;padding-left:20px"><i class='fas fa-map-marker-alt' style='font-size:24px;color:red'></i>	Wasana,Mahena,Dondra,Matara,Srilanka</p>
+      <p style="color:white;padding-left:20px"><i class='fas fa-phone-volume' style='font-size:24px;color:gray'></i>	0775371086,0412223313</p>
+      <p style="color:white;padding-left:20px"><i class='far fa-envelope-open' style='font-size:24px;color:gray'></i>	janakaharen@gmail.com</p>
+    </div>
+    <div class="col-sm-4" style="line-height:40px;text-decoration:none;text-align:left;margin:0px">
+      <b style="color:white;border-bottom:3px solid #FF5733">Useful Links</b></br>
+      <a href="index.html"><b style="border-left:2px solid orange">Home</b></a><br/>
+      <a href="services.html"><b style="border-left:2px solid orange">Services</b></a><br/>
+      <a href="paspro.html"><b style="border-left:2px solid orange">Projects</b></a><br/>
+      <a href="about.html"><b style="border-left:2px solid orange">About us</b></a><br/>
+      <a href="contact.html"><b style="border-left:2px solid orange">Contacts</b></a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	@2020 all rights reserved <b>HNG Constractors(Pvt)Ltd.</b>
+</div>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
